@@ -37,7 +37,6 @@ export function NavBar() {
           Search
         </Link>
       </li>
-    
     </ul>
     )
 }
