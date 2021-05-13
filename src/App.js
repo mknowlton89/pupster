@@ -5,6 +5,7 @@ import { About } from './screens/About/index';
 import { Discover } from './screens/Discover/index';
 import { Search } from './screens/Search/index';
 import { NavBar } from './components/NavBar/index';
+import { Footer } from './components/Footer/index';
 import {
   BrowserRouter as Router,
   Switch,
@@ -29,6 +30,7 @@ function App() {
           <Home />
         </Route>
       </Switch>
+      <Footer />
     </Router >
   );
 }
